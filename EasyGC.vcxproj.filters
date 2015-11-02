@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BON2Component.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\MON.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\MONImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\BON.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\BONImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Events.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Extensions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\ComHelp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\ComponentDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\ComponentObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Console.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Exceptions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Formatter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GarbledCircuitBonX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeWriter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BON2Component.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\MON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\MONImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\BON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\BONImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Events.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Extensions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\ComHelp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\ComponentDll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\ComponentObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Console.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Exceptions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Formatter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\GMECOM.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GarbledCircuitBonX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CompIcon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Component.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Component.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="$(GME_ROOT)\SDK\BON\Common\ComponentLib.idl">
+      <Filter>源文件</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>
